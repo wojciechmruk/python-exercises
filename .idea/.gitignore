@@ -1,0 +1,37 @@
+# Ignore Python cache files and folders
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore log files
+*.log
+
+# Ignore IDE-specific settings
+.vscode/
+.idea/
+*.swp
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+.virtualenv/
+*.egg-info/
+
+# Ignore temporary and system files
+.DS_Store
+Thumbs.db
+
+# Ignore test coverage reports
+.coverage
+htmlcov/
+*.cover
+*.coverage.*
+
+# Ignore build and distribution folders
+build/
+dist/
+
+# Ignore linter and test cache files
+.mypy_cache/
+.pytest_cache/
